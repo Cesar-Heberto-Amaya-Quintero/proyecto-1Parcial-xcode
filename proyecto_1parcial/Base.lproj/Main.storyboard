@@ -1,24 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Milky Coffee.ttf">
+            <string>Milky-Coffee</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="proyecto_1parcial" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="fondoProvisional" translatesAutoresizingMaskIntoConstraints="NO" id="jOC-R3-xpc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PdY-E4-Byf">
+                                <rect key="frame" x="30" y="759" width="354" height="75"/>
+                                <fontDescription key="fontDescription" name="Milky-Coffee" family="Milky Coffee" pointSize="34"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HamIdle01" translatesAutoresizingMaskIntoConstraints="NO" id="d5T-lW-Jvw">
+                                <rect key="frame" x="92.5" y="559" width="229" height="192"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HamIdle01" translatesAutoresizingMaskIntoConstraints="NO" id="hzt-hy-z3g">
+                                <rect key="frame" x="129.5" y="158" width="155" height="130"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WyE-6n-dnY">
+                                <rect key="frame" x="129.5" y="64" width="155" height="76"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hamburguer" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ok1-C8-kC0">
+                                <rect key="frame" x="35.5" y="288" width="343" height="49"/>
+                                <fontDescription key="fontDescription" name="Milky-Coffee" family="Milky Coffee" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EggsIdle01" translatesAutoresizingMaskIntoConstraints="NO" id="LIt-08-vEv">
+                                <rect key="frame" x="229" y="353" width="155" height="130"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PizzaIdle01" translatesAutoresizingMaskIntoConstraints="NO" id="vCr-fO-zxE">
+                                <rect key="frame" x="30" y="353" width="155" height="130"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pizza" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6a9-Si-fij">
+                                <rect key="frame" x="30" y="488" width="155" height="56"/>
+                                <fontDescription key="fontDescription" name="Milky-Coffee" family="Milky Coffee" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eggs" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kvt-Ej-bAr">
+                                <rect key="frame" x="229" y="488" width="155" height="48"/>
+                                <fontDescription key="fontDescription" name="Milky-Coffee" family="Milky Coffee" pointSize="27"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="hzt-hy-z3g" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.145089" id="0H8-WO-Ywl"/>
+                            <constraint firstItem="Ok1-C8-kC0" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.828502" id="0ST-Uw-M3e"/>
+                            <constraint firstItem="LIt-08-vEv" firstAttribute="top" secondItem="Ok1-C8-kC0" secondAttribute="bottom" constant="16" id="3Go-ca-nss"/>
+                            <constraint firstItem="Ok1-C8-kC0" firstAttribute="top" secondItem="hzt-hy-z3g" secondAttribute="bottom" id="3Kg-IR-WOq"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kvt-Ej-bAr" secondAttribute="trailing" constant="30" id="6CD-mC-zAa"/>
+                            <constraint firstItem="vCr-fO-zxE" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.374396" id="DEE-3h-Tws"/>
+                            <constraint firstItem="Ok1-C8-kC0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DYM-ZP-NfQ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="LIt-08-vEv" secondAttribute="trailing" constant="30" id="Dsq-h0-3Bn"/>
+                            <constraint firstItem="Kvt-Ej-bAr" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.0535714" id="FTV-ed-E5X"/>
+                            <constraint firstItem="vCr-fO-zxE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="JPw-ru-Oxd"/>
+                            <constraint firstItem="d5T-lW-Jvw" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.214286" id="LeI-5w-63Y"/>
+                            <constraint firstItem="vCr-fO-zxE" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.145089" id="MY6-Lq-Gsq"/>
+                            <constraint firstItem="WyE-6n-dnY" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.374396" id="Mel-3b-exE"/>
+                            <constraint firstItem="PdY-E4-Byf" firstAttribute="top" secondItem="d5T-lW-Jvw" secondAttribute="bottom" constant="8" id="OD1-a6-LL0"/>
+                            <constraint firstItem="d5T-lW-Jvw" firstAttribute="top" secondItem="6a9-Si-fij" secondAttribute="bottom" constant="15" id="OJ9-za-ruf"/>
+                            <constraint firstItem="WyE-6n-dnY" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.0848214" id="ORp-kd-lHt"/>
+                            <constraint firstItem="Kvt-Ej-bAr" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.374396" id="Qlg-iN-v5X"/>
+                            <constraint firstItem="hzt-hy-z3g" firstAttribute="top" secondItem="WyE-6n-dnY" secondAttribute="bottom" constant="18" id="Xco-GH-ick"/>
+                            <constraint firstItem="6a9-Si-fij" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="XxZ-uK-XTr"/>
+                            <constraint firstItem="PdY-E4-Byf" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.0837054" id="Y8g-8C-QDk"/>
+                            <constraint firstItem="jOC-R3-xpc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="YO6-Eu-VG3"/>
+                            <constraint firstAttribute="bottom" secondItem="jOC-R3-xpc" secondAttribute="bottom" id="YQA-hp-UJs"/>
+                            <constraint firstItem="PdY-E4-Byf" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.855072" id="bPA-WK-Ao9"/>
+                            <constraint firstItem="LIt-08-vEv" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.374396" id="ecV-Fh-rhf"/>
+                            <constraint firstItem="hzt-hy-z3g" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="gsu-4g-eLz"/>
+                            <constraint firstItem="hzt-hy-z3g" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.374396" id="iOd-aD-uvt"/>
+                            <constraint firstItem="PdY-E4-Byf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jZ3-0f-jJC"/>
+                            <constraint firstItem="WyE-6n-dnY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jhD-E2-Hlf"/>
+                            <constraint firstItem="LIt-08-vEv" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.145089" id="kbp-lv-qoj"/>
+                            <constraint firstItem="jOC-R3-xpc" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="l3a-Fj-9hV"/>
+                            <constraint firstItem="d5T-lW-Jvw" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.55314" id="lhD-eE-JnP"/>
+                            <constraint firstItem="6a9-Si-fij" firstAttribute="width" secondItem="jOC-R3-xpc" secondAttribute="width" multiplier="0.374396" id="mx5-Sy-KHx"/>
+                            <constraint firstItem="d5T-lW-Jvw" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="nqd-H1-2Ny"/>
+                            <constraint firstItem="Kvt-Ej-bAr" firstAttribute="top" secondItem="LIt-08-vEv" secondAttribute="bottom" constant="5" id="oNf-22-EdS"/>
+                            <constraint firstItem="6a9-Si-fij" firstAttribute="top" secondItem="vCr-fO-zxE" secondAttribute="bottom" constant="5" id="rOE-8U-a2I"/>
+                            <constraint firstItem="WyE-6n-dnY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="skr-94-Ths"/>
+                            <constraint firstItem="6a9-Si-fij" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.0625" id="tYC-I9-BCL"/>
+                            <constraint firstItem="jOC-R3-xpc" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="usC-ES-2Ae"/>
+                            <constraint firstItem="vCr-fO-zxE" firstAttribute="top" secondItem="Ok1-C8-kC0" secondAttribute="bottom" constant="16" id="wR5-ff-HLK"/>
+                            <constraint firstItem="Ok1-C8-kC0" firstAttribute="height" secondItem="jOC-R3-xpc" secondAttribute="height" multiplier="0.0546875" id="xPi-Xf-a7f"/>
+                            <constraint firstItem="jOC-R3-xpc" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="y0H-dw-sVq"/>
+                            <constraint firstItem="jOC-R3-xpc" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="ywY-dT-5ui"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="138.61607142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="EggsIdle01" width="250" height="250"/>
+        <image name="HamIdle01" width="250" height="250"/>
+        <image name="PizzaIdle01" width="250" height="250"/>
+        <image name="fondoProvisional" width="236" height="355"/>
+        <image name="logo" width="1125" height="325"/>
+    </resources>
 </document>

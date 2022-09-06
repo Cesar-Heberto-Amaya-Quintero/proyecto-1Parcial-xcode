@@ -15,6 +15,7 @@
 		3DABC5EA28C78DE9007DBD15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC5E828C78DE9007DBD15 /* LaunchScreen.storyboard */; };
 		3DABC5F528C78DE9007DBD15 /* proyecto_1parcialTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC5F428C78DE9007DBD15 /* proyecto_1parcialTests.swift */; };
 		3DABC60028C78DE9007DBD15 /* proyecto_1parcialUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC5FF28C78DE9007DBD15 /* proyecto_1parcialUITests.swift */; };
+		3DABC60E28C78FCB007DBD15 /* Milky Coffee.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3DABC60D28C78FCA007DBD15 /* Milky Coffee.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		3DABC5FB28C78DE9007DBD15 /* proyecto_1parcialUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proyecto_1parcialUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DABC5FF28C78DE9007DBD15 /* proyecto_1parcialUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proyecto_1parcialUITests.swift; sourceTree = "<group>"; };
 		3DABC60128C78DE9007DBD15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DABC60D28C78FCA007DBD15 /* Milky Coffee.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Milky Coffee.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		3DABC5DC28C78DDF007DBD15 /* proyecto_1parcial */ = {
 			isa = PBXGroup;
 			children = (
+				3DABC60D28C78FCA007DBD15 /* Milky Coffee.ttf */,
 				3DABC5DD28C78DDF007DBD15 /* AppDelegate.swift */,
 				3DABC5DF28C78DDF007DBD15 /* SceneDelegate.swift */,
 				3DABC5E128C78DDF007DBD15 /* ViewController.swift */,
@@ -234,6 +237,7 @@
 			files = (
 				3DABC5EA28C78DE9007DBD15 /* LaunchScreen.storyboard in Resources */,
 				3DABC5E728C78DE9007DBD15 /* Assets.xcassets in Resources */,
+				3DABC60E28C78FCB007DBD15 /* Milky Coffee.ttf in Resources */,
 				3DABC5E528C78DDF007DBD15 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
