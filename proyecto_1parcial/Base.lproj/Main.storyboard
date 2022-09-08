@@ -476,6 +476,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="imgActiva" destination="d5T-lW-Jvw" id="m4e-S5-EYu"/>
                         <outlet property="imgEggs" destination="LIt-08-vEv" id="Ncl-xy-vwe"/>
                         <outlet property="imgHam" destination="hzt-hy-z3g" id="IV5-bj-2BH"/>
                         <outlet property="imgPizza" destination="vCr-fO-zxE" id="bta-VJ-Fc1"/>

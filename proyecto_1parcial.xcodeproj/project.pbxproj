@@ -10,6 +10,7 @@
 		3D61B5F628CA37CB00D60157 /* Hamburger.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D61B5F528CA37CA00D60157 /* Hamburger.m4a */; };
 		3D61B5F828CA3BBA00D60157 /* pizza.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D61B5F728CA3BB900D60157 /* pizza.m4a */; };
 		3D61B5FA28CA3BC700D60157 /* eggs.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3D61B5F928CA3BC700D60157 /* eggs.m4a */; };
+		3D61B5FC28CA443900D60157 /* musicaFondo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D61B5FB28CA443800D60157 /* musicaFondo.mp3 */; };
 		3DABC5DE28C78DDF007DBD15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC5DD28C78DDF007DBD15 /* AppDelegate.swift */; };
 		3DABC5E028C78DDF007DBD15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC5DF28C78DDF007DBD15 /* SceneDelegate.swift */; };
 		3DABC5E228C78DDF007DBD15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DABC5E128C78DDF007DBD15 /* ViewController.swift */; };
@@ -42,6 +43,7 @@
 		3D61B5F528CA37CA00D60157 /* Hamburger.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hamburger.m4a; sourceTree = "<group>"; };
 		3D61B5F728CA3BB900D60157 /* pizza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pizza.m4a; sourceTree = "<group>"; };
 		3D61B5F928CA3BC700D60157 /* eggs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = eggs.m4a; sourceTree = "<group>"; };
+		3D61B5FB28CA443800D60157 /* musicaFondo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicaFondo.mp3; sourceTree = "<group>"; };
 		3DABC5DA28C78DDF007DBD15 /* proyecto_1parcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto_1parcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DABC5DD28C78DDF007DBD15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DABC5DF28C78DDF007DBD15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 		3DABC5DC28C78DDF007DBD15 /* proyecto_1parcial */ = {
 			isa = PBXGroup;
 			children = (
+				3D61B5FB28CA443800D60157 /* musicaFondo.mp3 */,
 				3D61B5F928CA3BC700D60157 /* eggs.m4a */,
 				3D61B5F728CA3BB900D60157 /* pizza.m4a */,
 				3D61B5F528CA37CA00D60157 /* Hamburger.m4a */,
@@ -249,6 +252,7 @@
 				3DABC5E728C78DE9007DBD15 /* Assets.xcassets in Resources */,
 				3DABC60E28C78FCB007DBD15 /* Milky Coffee.ttf in Resources */,
 				3D61B5FA28CA3BC700D60157 /* eggs.m4a in Resources */,
+				3D61B5FC28CA443900D60157 /* musicaFondo.mp3 in Resources */,
 				3DABC5E528C78DDF007DBD15 /* Main.storyboard in Resources */,
 				3D61B5F828CA3BBA00D60157 /* pizza.m4a in Resources */,
 			);
