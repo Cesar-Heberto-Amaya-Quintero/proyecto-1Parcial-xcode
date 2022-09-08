@@ -15,18 +15,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="IUx-06-XVV">
-                                <rect key="frame" x="31" y="354" width="352" height="188"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="188" id="ztQ-qb-hRp"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background2" translatesAutoresizingMaskIntoConstraints="NO" id="gg1-oM-xu9">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo2" translatesAutoresizingMaskIntoConstraints="NO" id="IUx-06-XVV">
+                                <rect key="frame" x="-33.5" y="408" width="481" height="80"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="IUx-06-XVV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="KCh-TZ-Lv2"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="IUx-06-XVV" secondAttribute="trailing" constant="31" id="kH1-Wt-oj8"/>
-                            <constraint firstItem="IUx-06-XVV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="w8F-IJ-xN8"/>
+                            <constraint firstItem="IUx-06-XVV" firstAttribute="width" secondItem="gg1-oM-xu9" secondAttribute="width" multiplier="1.16184" id="Eu9-gf-XMI"/>
+                            <constraint firstItem="gg1-oM-xu9" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Lla-Me-6dd"/>
+                            <constraint firstItem="gg1-oM-xu9" firstAttribute="height" secondItem="Ze5-6b-2t3" secondAttribute="height" id="WQs-bs-14o"/>
+                            <constraint firstItem="IUx-06-XVV" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="YRI-xT-Wzl"/>
+                            <constraint firstItem="gg1-oM-xu9" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" id="d6a-Cb-Aai"/>
+                            <constraint firstItem="IUx-06-XVV" firstAttribute="height" secondItem="gg1-oM-xu9" secondAttribute="height" multiplier="0.0892857" id="eZM-kR-v0w"/>
+                            <constraint firstItem="gg1-oM-xu9" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="qwL-xn-APk"/>
+                            <constraint firstItem="IUx-06-XVV" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zOp-EK-5BN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -37,6 +42,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo" width="1125" height="325"/>
+        <image name="background2" width="4167" height="7501"/>
+        <image name="logo2" width="1603" height="487.5"/>
     </resources>
 </document>
