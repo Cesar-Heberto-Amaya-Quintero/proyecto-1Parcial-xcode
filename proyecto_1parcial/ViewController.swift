@@ -76,15 +76,6 @@ class ViewController: UIViewController {
         imgEggs.animationDuration = 1.0
         imgEggs.startAnimating()
         
-        for i in 1...5 {
-            let imagen = UIImage(named: "Ham0\(i)")
-            secuenciaActiva.append(imagen!)
-        }
-        imgActiva.stopAnimating()
-        imgActiva.animationImages = secuenciaActiva
-        imgActiva.animationDuration = 1.0
-        imgActiva.startAnimating()
-        
         
         
     }

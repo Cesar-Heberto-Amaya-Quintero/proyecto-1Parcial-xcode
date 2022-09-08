@@ -44,7 +44,7 @@
 		3D61B5F728CA3BB900D60157 /* pizza.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = pizza.m4a; sourceTree = "<group>"; };
 		3D61B5F928CA3BC700D60157 /* eggs.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = eggs.m4a; sourceTree = "<group>"; };
 		3D61B5FB28CA443800D60157 /* musicaFondo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = musicaFondo.mp3; sourceTree = "<group>"; };
-		3DABC5DA28C78DDF007DBD15 /* proyecto_1parcial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = proyecto_1parcial.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DABC5DA28C78DDF007DBD15 /* Foods.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Foods.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DABC5DD28C78DDF007DBD15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3DABC5DF28C78DDF007DBD15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DABC5E128C78DDF007DBD15 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,7 +99,7 @@
 		3DABC5DB28C78DDF007DBD15 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3DABC5DA28C78DDF007DBD15 /* proyecto_1parcial.app */,
+				3DABC5DA28C78DDF007DBD15 /* Foods.app */,
 				3DABC5F028C78DE9007DBD15 /* proyecto_1parcialTests.xctest */,
 				3DABC5FB28C78DE9007DBD15 /* proyecto_1parcialUITests.xctest */,
 			);
@@ -160,7 +160,7 @@
 			);
 			name = proyecto_1parcial;
 			productName = proyecto_1parcial;
-			productReference = 3DABC5DA28C78DDF007DBD15 /* proyecto_1parcial.app */;
+			productReference = 3DABC5DA28C78DDF007DBD15 /* Foods.app */;
 			productType = "com.apple.product-type.application";
 		};
 		3DABC5EF28C78DE9007DBD15 /* proyecto_1parcialTests */ = {
@@ -461,7 +461,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.proyecto-1parcial";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Foods;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -478,7 +478,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "edu.ulsa.proyecto-1parcial";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = Foods;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
